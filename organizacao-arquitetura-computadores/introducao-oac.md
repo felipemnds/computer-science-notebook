@@ -47,7 +47,7 @@ Agora representaremos a CPU e seus componentes interagindo com a Memória, a sab
 - o ACUMULADOR faz parte da ULA
 - o endereçamento acontece crescente de baixo para cima na MEMÓRIA
 - as instruções na MEMÓRIA são formatadas como CÓDIGO DE MÁQUINA
-![Imagem do Ciclo de Execucao](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/Untitled-1)
+![Imagem do Ciclo de Execucao](https://lh3.googleusercontent.com/78ycBSxJqGW85Dh4JuDed_nR20BBKXUnkptgKudNnSoF8oUp260dYuZ5h3bpNCfojk3rcp2UOJX3xzGOYa_4G7i_K3uPa14uXY-Mdd6yKvdMuR6nR77reHR_NSAcB_HceYobdhm1Fx3mgOIwXACb_VqefXVyzo8CekK1LUYeuUhPfJ_toBaTIgsUxFc5f-0z4zSBxmBHZ-E-LzwdOWvAyeUQaGDtcQhQZVyztKhd95-sphaUYUIZ1c_8AjeSO0WlLKfhQ7VYzTpIfEmBnzLC2jRG4vphvI0ecmAhemI_A0qUKP4x6KT_umPugGVFU88O0Ov6YtzMP1Fa1xZlZsTSBuLp_PJnWJ0VIu3Bna5qC1WEUIo5cQSKcUXKXGeafTWCDNU-a2V5h7NIC4JB45wOafAjSSO4pTN1Pa8k1DZc18YLmj7do8CVvlHie8lutindmlokpbde8gPzrnrd7ewOQByZ25_4LJuG_XW5DtA3cGoQ5TbvBf53-qNyFyBzH2gNhKWf2pHGxJH0mmQsBBiM2Z62mCGPev2U2b8njJiJnifsVsRczCjQeJoBjRzhwAHflVDjZrLlX-CSwPnXoYaqqw58cXnVCSclHqHhZGWJEiyHweL8sIMp3GAcNwYgYZb6DbbakPxZqLBYNaUuzMn4ra5V=w900-h600-no)
 ## Busca - 1. PC (Program Counter)
 Armazena o endereço da próxima instrução a ser buscada
 ## Busca - 2. MAR (Memory Address Register)
