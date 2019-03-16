@@ -175,10 +175,7 @@ The method `getId()` was set to private so that no other class can know the soci
 However, we were still able to use that method internally when comparing this person with another person object in the `isSamePerson(Person p)` method.
 
 This means that any other class can only call `getUserName` or `isSamePerson` and will seem as if these are the only 2 methods provided by the class Person.
-
-# :tada: Awesome! You've finished "Part 1"!
-
-> By now, you understand what Object Oriented Programming actually is, and how can you use this paradigm to design better programs.
+# :tada: 
 # Part 2. Reading User Input
 So now that we know how powerful OOP can be, let's learn how to make our code more interactive!
 ## 1) Input Scanner

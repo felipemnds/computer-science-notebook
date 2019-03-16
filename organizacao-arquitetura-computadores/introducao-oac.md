@@ -1,6 +1,5 @@
 >  ***Lista de Referências:***
 > 1. https://www.youtube.com/watch?v=jFDMZpkUWCw
-> 2. https://www.youtube.com/watch?v=qzSdglU0SBc&list=PLylNWPMX1lPnipZzKdCWRj2-un5xvLLdK
 
 # A) Visão Geral
 Um **Sistema Computacional** é o nome dado à junção de *Hardware + Software*, nosso objeto de estudo nos próximos resumos.
