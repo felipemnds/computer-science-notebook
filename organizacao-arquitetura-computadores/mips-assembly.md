@@ -40,12 +40,12 @@ Temos alguns registradores especiais:
 # 2. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.png)
 Cada local na Memória MIPS tem largura de 8 bits (1 byte).
 
 A Memória MIPS é indexada por seu endereço. Uma memória de 4GB por exemplo possui 2^32 locais.
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_11_09.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_11_09.png)
 
 Ou seja:
 - No **endereçamento bit-a-bit**, contamos 0, 1, 2, 3, ...
@@ -65,14 +65,14 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 ## Codificação das Instruções em Assembly
 ### Tipo R - Operações comuns
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_28_05.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_28_05.png)
 
 ### Tipo I - Operações Aritméticas com imediato ou Desvio Condicional
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_31_12.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_31_12.png)
 
 ### Tipo J - Jump (Desvio incondicional)
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.png)
 
 
