@@ -24,7 +24,7 @@ Na linguagem, possuímos 5 tipos de instrução:
 4. *branch* condicional
 5. *jump* incondicional
 Confira abaixo a tabela completa:
-![Tabela completa de instruções](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/mipsasmtable.jpg)
+![Tabela completa de instruções](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/mipsasmtable.jpg)
 
 ## Register File
 Aqui, temos **32 registradores de propósito geral**:
@@ -35,17 +35,17 @@ Temos alguns registradores especiais:
 - R29/R31 são usados para chamada de funções
 - Hi & Lo guardam resultados de multiplicação
 
-![Representação - Register file](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.jpg)
+![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.png)
 
 # 2. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
 
-![Representação](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.jpg)
 Cada local na Memória MIPS tem largura de 8 bits (1 byte).
 
 A Memória MIPS é indexada por seu endereço. Uma memória de 4GB por exemplo possui 2^32 locais.
 
-![Representação](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_11_09.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_11_09.jpg)
 
 Ou seja:
 - No **endereçamento bit-a-bit**, contamos 0, 1, 2, 3, ...
@@ -65,14 +65,14 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 ## Codificação das Instruções em Assembly
 ### Tipo R - Operações comuns
 
-![Representação](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_28_05.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_28_05.jpg)
 
 ### Tipo I - Operações Aritméticas com imediato ou Desvio Condicional
 
-![Representação](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_31_12.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_31_12.jpg)
 
 ### Tipo J - Jump (Desvio incondicional)
 
-![Representação](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.jpg)
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.jpg)
 
 
