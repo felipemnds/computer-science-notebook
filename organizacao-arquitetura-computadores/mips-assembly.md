@@ -76,3 +76,6 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 ![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.png)
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTU2NTE4MjQ0XX0=
+-->
