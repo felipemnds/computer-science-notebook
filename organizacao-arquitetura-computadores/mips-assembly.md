@@ -35,7 +35,7 @@ Temos alguns registradores especiais:
 - R29/R31 são usados para chamada de funções
 - Hi & Lo guardam resultados de multiplicação
 
-![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.png)
+![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/whosaveswhat.png)
 
 # 2. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
