@@ -57,7 +57,7 @@ Ou seja:
 
 # 4. Detalhes das instruções MIPS 
 ## Operações de Dados
-Seguem o ciclo de execução como base (já explicado anteriormente em [Introdução OAC.](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
+Seguem o ciclo de execução como base (já explicado anteriormente em [Introdução OAC.)](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
 ## Operações de Desvios
 Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tais operações mudam o fluxo do programa (ou seja, alteram o **Program Counter**).
 > Lembre-se: ` bne/beq ` só comparam registradores com registradores. Ou seja, se queremos comparar um valor com algum número, devemos primeiramente carregar esse número em outro registrador usando ` addi `.
