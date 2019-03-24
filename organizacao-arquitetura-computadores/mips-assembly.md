@@ -7,7 +7,19 @@
 > 1. https://www.youtube.com/playlist?list=PLylNWPMX1lPlmEeeMdbEFQo20eHAJL8hx
 > 2. https://www.youtube.com/playlist?list=PLylNWPMX1lPnipZzKdCWRj2-un5xvLLdK
 
-# 1. Instruções MIPS
+# 1. Estrutura do Código MIPS
+```
+  .data
+  .align 0
+nome: .tipo-de-dado valor(es)  
+
+  .text
+  .globl main
+main: 
+  opcode x, y, z
+```
+
+# 2. Instruções MIPS
 ## Formato geral de 3 operandos
 A maioria dos códigos possuem a seguinte aparência:
 ```
@@ -37,7 +49,7 @@ Temos alguns registradores especiais:
 
 ![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.png)
 
-# 2. Memória MIPS
+# 3. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
 
 ![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.png)
@@ -51,11 +63,11 @@ Ou seja:
 - No **endereçamento bit-a-bit**, contamos 0, 1, 2, 3, ...
 - No **endereçamento por palavra** contamos 0, 4, 8, 12, ...
 
-# 3. PEM & PSM
+# 4. PEM & PSM
 - **Processor execution model**: sequencial (em ordem) e atômico (termina tarefa atual antes de continuar)
 - **Processor storage model**: instruções e dados são guardados na memória (sem diferenças)
 
-# 4. Detalhes das instruções MIPS 
+# 5. Detalhes das instruções MIPS 
 ## Operações de Dados
 Seguem o ciclo de execução como base (já explicado anteriormente em [Introdução OAC.)](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
 ## Operações de Desvios
@@ -75,7 +87,7 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 
 ![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.png)
 
-# 5. Procedimentos
+# 6. Procedimentos
 Em resumo, quando mais de um trecho de código correm o risco de usar os mesmos registradores, surge a necessidade de padronizarmos este uso. E é assim que regras e convenções surgem quando falamos de procedimentos em Assembly.
 Basicamente, precisamos:
 - conhecer onde estarão os valores de **argumentos** e de **retorno**
