@@ -92,6 +92,7 @@ sw $t0, 0($sp) # 'store' $t0 na memoria
 lw $t0, 0($sp) # 'load' $t0 da memoria
 addi $sp, $sp, 4 # desaloca a palavra alocada anteriormente
 ```
+> Perceba: a Stack cresce de cima para baixo
 ## C) Usar *jal* e *jr $ra* para entrar e sair dos procedimentos
 Ao usar o desvio incondicional ` jump `para ir até um procedimento, devemos usar os comandos corretos:
 ```
