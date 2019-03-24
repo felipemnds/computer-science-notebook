@@ -35,7 +35,7 @@ Temos alguns registradores especiais:
 - R29/R31 são usados para chamada de funções
 - Hi & Lo guardam resultados de multiplicação
 
-![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/whosaveswhat.png)
+![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.png)
 
 # 2. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
@@ -75,7 +75,26 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 
 ![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.png)
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NTE4MjQ0XX0=
--->
+# 5. Procedimentos
+Em resumo, quando mais de um trecho de código correm o risco de usar os mesmos registradores, surge a necessidade de padronizarmos este uso. E é assim que regras e convenções surgem quando falamos de procedimentos em Assembly.
+Basicamente, precisamos:
+- conhecer onde estarão os valores de **argumentos** e de **retorno**
+- **guardar na Memória principal** informações que seriam substituídas caso ficassem nos registradores
+E para que tudo isso dê certo, precisamos dos seguintes fatores.
+## A) Convenções para os *donos* de cada registrador
+Aqui vemos os 4 principais grupos de registradores: os *argumentos, retornos, registradores do "caller" e registradores do "callee"*.
+![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/whosaveswhat.png)
+## B) Salvar na Memória Stack o que precisa ser salvo
+Ao entrar e sair de um procedimento precisamos **alocar e desalocar o espaço necessário na stack**, respectivamente. E o processo funciona mais ou menos assim:
+```
+addi $sp, $sp, -4 # alocar uma palavra na Stack
+sw $t0, 0($sp) # 'store' $t0 na memoria
+lw $t0, 0($sp) # 'load' $t0 da memoria
+addi $sp, $sp, 4 # desaloca a palavra alocada anteriormente
+```
+## C) Usar *jal* e *jr $ra* para entrar e sair dos procedimentos
+Ao usar o desvio incondicional ` jump `para ir até um procedimento, devemos usar os comandos corretos:
+```
+jal NomeProcedimento # desvia para o procedimento e guarda o endereço inicial $ra, para o retorno
+jr $ra # já dentro do procedimento, vai diretamente para o endereço de $ra (endereço inicial do "Caller")
+```
