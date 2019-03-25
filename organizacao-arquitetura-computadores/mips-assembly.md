@@ -1,7 +1,6 @@
 >  ***Links Úteis:***
 > 1. [MIPS  quick tutorial](http://logos.cs.uic.edu/366/notes/mips%20quick%20tutorial.htm)
 > 2. [MIPS Assembly Language Examples](https://courses.cs.washington.edu/courses/cse378/03wi/lectures/mips-asm-examples.html)
-> 3. [Apêndice A - Livro do Patterson](http://pages.cs.wisc.edu/~larus/HP_AppA.pdf)
 
 >  ***Lista de Referências:***
 > 1. https://www.youtube.com/playlist?list=PLylNWPMX1lPlmEeeMdbEFQo20eHAJL8hx
