@@ -75,15 +75,15 @@ Temos o desvio **condicional** ` bne, beq ` e **incondicional** ` j LABEL `. Tai
 ## Codificação das Instruções em Assembly
 ### Tipo R - Operações comuns
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_28_05.png)
+![enter image description here](https://lh3.googleusercontent.com/qG4GVQsos0FuZMNvGgh10Ash0HQkPoS4I5CfzDjYQIb-xzexU9T_DhOMDd6IbCLSbj4TBvsNt1aR)
 
 ### Tipo I - Operações Aritméticas com imediato ou Desvio Condicional
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_31_12.png)
+![enter image description here](https://lh3.googleusercontent.com/akYUT4yQPFVPxTDnxupZTq32QBKnJXN5R8D7j4nBSBy39sAS9aQpgEVGW0MYag5J-gV4qayILWN5)
 
 ### Tipo J - Jump (Desvio incondicional)
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_32_46.png)
+![enter image description here](https://lh3.googleusercontent.com/QpQyQgIPfDWyTbGUynEhCxAn5z2zocumj3l7EzaaRcB_p7gMAOOO3RpXC7USCJzFQrgzNnj72Mly)
 
 # 6. Procedimentos
 Em resumo, quando mais de um trecho de código correm o risco de usar os mesmos registradores, surge a necessidade de padronizarmos este uso. E é assim que regras e convenções surgem quando falamos de procedimentos em Assembly.
@@ -93,7 +93,7 @@ Basicamente, precisamos:
 E para que tudo isso dê certo, precisamos dos seguintes fatores.
 ## A) Convenções para os *donos* de cada registrador
 Aqui vemos os 4 principais grupos de registradores: os *argumentos, retornos, registradores do "caller" e registradores do "callee"*.
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/whosaveswhat.png)
+![enter image description here](https://lh3.googleusercontent.com/EwVqLeX93KYeu3_8RF6iOsEAhZst2f7QBzG4k08fS1s8ogUTqPKmZAM1Dg3ur1dYbX2vP95ldIgp)
 ## B) Salvar na Memória Stack o que precisa ser salvo
 Ao entrar e sair de um procedimento precisamos **alocar e desalocar o espaço necessário na stack**, respectivamente. E o processo funciona mais ou menos assim:
 ```
@@ -110,5 +110,5 @@ jal NomeProcedimento # desvia para o procedimento e guarda o endereço inicial $
 jr $ra # já dentro do procedimento, vai diretamente para o endereço de $ra (endereço inicial do "Caller")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ4MTUxM119
+eyJoaXN0b3J5IjpbLTEzOTY4MjI2NjVdfQ==
 -->
