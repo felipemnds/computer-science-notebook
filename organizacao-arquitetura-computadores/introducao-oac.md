@@ -30,6 +30,7 @@ Controla várias funções na CPU (como busca de dados na memória, controle ULA
 
 # C) Ciclo de Von Neumann (ou 'Fetch Decode Execute Cycle')
 > Vídeo que ilustra o ciclo: https://www.youtube.com/watch?v=jFDMZpkUWCw&t=1s
+
 Vamos considerar a seguinte instrução:
 ```
 // alto nível
@@ -70,3 +71,6 @@ Recebe os conteúdo que serão usados dentro da ULA
 ## OBS.: Caminho de Dados
 > MAR -> MEMÓRIA PRINCIPAL
 > MBR <-> MEMÓRIA PRINCIPAL
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE4NzE3NDYyM119
+-->
