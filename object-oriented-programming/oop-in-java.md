@@ -240,8 +240,8 @@ And for this, you need another library as well:
 ## 3) Exceptions
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
-    Video that explains the dynamics of throwing, try & catch.
+    [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjEwMjYxNSwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbNjE4ODYxMzk5LC00Njg2NzIyNzddfQ==
 -->
