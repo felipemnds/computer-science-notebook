@@ -240,16 +240,19 @@ And for this, you need another library as well:
 ## 3) Exceptions
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
-    [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
-Exceptions will be *thrown* by your methods by simpling putting `th`. You have the responsability to catch it, giving the user a good and friendly experience with your program.
+[Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
+
+Exceptions will be *thrown* by your methods by simpling putting `throws Exception` right after your method's name. **You** have the responsability to catch it, giving the user a good and friendly experience with your program.
 ```
 try{
    openFile("somefile.txt");
+   array[index]++;
 } catch(FileNotFoundException exception) {
-   // Handle the situation by letting the user know what happened
-   System.out.println("Cannot find that file");
-}
+   // Handle all the possible file-not-found-related issues here
+} catch(IndexOutOfBoundsException exception) {
+   // Handle all the possible index-out-of-bounds-related issues here
+} 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDc3MTgyMywtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbMTY1NTg5OTk5MiwtNDY4NjcyMjc3XX0=
 -->
