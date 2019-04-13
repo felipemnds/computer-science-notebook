@@ -14,7 +14,7 @@ E para entrarmos de vez em Organização e Arquitetura de Computadores, precisam
 3. ULA (Unidade Lógica Aritmética)
 4. UC (Unidade de Controle)
 
-![Foto da Arquitetura de Von Neumann](https://computerscience.gcse.guru/wp-content/uploads/2016/04/Von-Neumann-Architecture-Diagram.jpg)
+![enter image description here](https://lh3.googleusercontent.com/y0w24tNfdIknjIgZG4-5JnMBEVvltgYt7WEnLa-pVgTEKnVmvXlYYPMcLQJxB_mpq084i3PGYaYD "Foto da Arquitetura de Von Neumann")
 
 ## 1. Memória Principal
 "Caixa" com vários compartimentos acessados pelo **ENDEREÇO** (buscados pela CPU através dos *barramentos*).
@@ -48,7 +48,7 @@ Agora representaremos a CPU e seus componentes interagindo com a Memória, a sab
 - o endereçamento acontece crescente de baixo para cima na MEMÓRIA
 - as instruções na MEMÓRIA são formatadas como CÓDIGO DE MÁQUINA
 
-![](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/Untitled-1.png)
+![](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/Untitled-1.png)![enter image description here](https://lh3.googleusercontent.com/F6tsiBKGILEkLuquHWygt3UzD9YSSgm49mpZkvDQbqnpPzYoj9KhnsvxeSe4-ky8tQZUGUJs0Plx)
 
 ## Busca - 1. PC (Program Counter)
 Armazena o endereço da próxima instrução a ser buscada
@@ -72,5 +72,5 @@ Recebe os conteúdo que serão usados dentro da ULA
 > MAR -> MEMÓRIA PRINCIPAL
 > MBR <-> MEMÓRIA PRINCIPAL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzE3NDYyM119
+eyJoaXN0b3J5IjpbLTEwOTI5NDc4MiwxMTg3MTc0NjIzXX0=
 -->
