@@ -253,6 +253,7 @@ try{
    // Handle all the possible index-out-of-bounds-related issues here
 } 
 ```
+> You can have more than one Exception/Catch block.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTg5OTk5MiwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbOTA5NTIxNDYxLC00Njg2NzIyNzddfQ==
 -->
