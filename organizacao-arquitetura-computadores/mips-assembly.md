@@ -35,7 +35,7 @@ Na linguagem, possuímos 5 tipos de instrução:
 4. *branch* condicional
 5. *jump* incondicional
 Confira abaixo a tabela completa:
-![Tabela completa de instruções](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/mipsasmtable.jpg)
+![enter image description here](https://lh3.googleusercontent.com/qm3xYxQlMIhJHKeVMPeSA0yy7JuHxFBhy9iCdJlc3RX1EQJsCnNYA8SuT_jgCPTxbmfU1gvg9dZM)
 
 ## Register File
 Aqui, temos **32 registradores de propósito geral**:
@@ -46,17 +46,16 @@ Temos alguns registradores especiais:
 - R29/R31 são usados para chamada de funções
 - Hi & Lo guardam resultados de multiplicação
 
-![Representação - Register file](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201922_55_07.png)
+![enter image description here](https://lh3.googleusercontent.com/X3bCiqey-3vaEcBLt1T-83cNs2nWtNLR-WE_uvJGPNwuEopmO5gvOk8DYL1xoD8JourhI4nfMRIB)
 
 # 3. Memória MIPS
 MIPS é uma máquina *Register File* de *LOAD/STORE* (carregar/armazenar).
-
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_01_45.png)
+![enter image description here](https://lh3.googleusercontent.com/3zePqjPuqRXektIVAcl1egs-YD9PCDsAfSjcgnIDFW8W3_A3sCA24m3fVagf3gsFFi0PycfQsgGh)
 Cada local na Memória MIPS tem largura de 8 bits (1 byte).
 
 A Memória MIPS é indexada por seu endereço. Uma memória de 4GB por exemplo possui 2^32 locais.
 
-![Representação](https://github.com/felipemnds/computer-science-notebook/blob/master/organizacao-arquitetura-computadores/autodraw15_03_201923_11_09.png)
+![enter image description here](https://lh3.googleusercontent.com/6s8LE7m-9H6nv_gS3p6JsNwgPZIXMsmBK5trBVMYmQIxF3qtetT9YDhbiscucCgz5sgl-cPupwfy)
 
 Ou seja:
 - No **endereçamento bit-a-bit**, contamos 0, 1, 2, 3, ...
@@ -110,3 +109,6 @@ Ao usar o desvio incondicional ` jump `para ir até um procedimento, devemos usa
 jal NomeProcedimento # desvia para o procedimento e guarda o endereço inicial $ra, para o retorno
 jr $ra # já dentro do procedimento, vai diretamente para o endereço de $ra (endereço inicial do "Caller")
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyMTQ4MTUxM119
+-->
