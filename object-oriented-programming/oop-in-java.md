@@ -239,6 +239,9 @@ And for this, you need another library as well:
     
 ## 3) Exceptions
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
+
+    Video that explains the dynamics of throwing, try & catch.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbMjA5MjEwMjYxNSwtNDY4NjcyMjc3XX0=
 -->
