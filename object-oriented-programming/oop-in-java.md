@@ -237,7 +237,8 @@ And for this, you need another library as well:
 
     import java.io.File;
     
-x
+## 3) Exceptions
+**Runtime errors** only happens *occasionally*, and *while* the program is running 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjQzNjk3XX0=
+eyJoaXN0b3J5IjpbMTM5NTk0Njc2NF19
 -->
