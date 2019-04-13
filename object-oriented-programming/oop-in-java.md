@@ -241,7 +241,15 @@ And for this, you need another library as well:
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
     [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
-
+Exceptions will be *thrown* by your methods by simpling putting `th`. You have the responsability to catch it, giving the user a good and friendly experience with your program.
+```
+try{
+   openFile("somefile.txt");
+} catch(FileNotFoundException exception) {
+   // Handle the situation by letting the user know what happened
+   System.out.println("Cannot find that file");
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4ODYxMzk5LC00Njg2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbMTI3MDc3MTgyMywtNDY4NjcyMjc3XX0=
 -->
