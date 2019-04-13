@@ -3,8 +3,8 @@ Here you can find some of my summaries/nots made during my Computer Science Grad
 1. Object Oriented Programming
 	- [OOP in Java](https://github.com/felipemnds/computer-science-summaries/blob/master/object-oriented-programming/oop-in-java.md)
 2. Organização e Arquitetura de Computadores
-	- [:br: Introdução OAC](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
+	- [Introdução OAC](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
 	- [Assembly MIPS](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/mips-assembly.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMzNzYxNDBdfQ==
+eyJoaXN0b3J5IjpbOTM2MDA3MTY0XX0=
 -->
