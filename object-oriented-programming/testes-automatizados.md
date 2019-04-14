@@ -29,9 +29,10 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@After` | Executado depois de cada teste. Usado para limpar o ambiente após o teste. |
 | `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
 | `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
-| `@Ignore` or `@Ignore("Motivo de estar desabilitado")`| Marca que o teste em questão está desabilitado |
+| `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
 | `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
 | `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
+## 3) Tabela de Assert
 ## 3) Facilite sua vida com o import estático
 Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
@@ -48,6 +49,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc3MzYwMzIsMTYwMDQyMDQ2MywxND
-QyMjk5NTcwLDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbMTcyMDU5MzE5NCwxNjAwNDIwNDYzLDE0ND
+IyOTk1NzAsNDkyMDEyODQwXX0=
 -->
