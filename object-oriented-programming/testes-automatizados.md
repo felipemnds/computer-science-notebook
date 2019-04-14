@@ -87,8 +87,9 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 # Parte 3. EclEmma
 O **EclEmma** é uma ferramenta de cobertura de código para Java. De forma resumida, ele te mostra qual a porcentagem do seu código seus testes estão cobrindo.
 ## 1) Instalando o EclEmma no Eclipse
+> Help > Install New Software > Work With "http://update.eclemma.org/" > Add > Next
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxOTUzNzMwLC05NjkxNjk4NTksMTY4MD
-A2MDI5OCwxNDIyOTg3ODksMTYwMDQyMDQ2MywxNDQyMjk5NTcw
-LDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbLTE3NDgyNTU0OTAsLTk2OTE2OTg1OSwxNj
+gwMDYwMjk4LDE0MjI5ODc4OSwxNjAwNDIwNDYzLDE0NDIyOTk1
+NzAsNDkyMDEyODQwXX0=
 -->
