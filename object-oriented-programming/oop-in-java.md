@@ -307,8 +307,9 @@ You cant use the keyword `final`with **fields** as well. This way, nothing will 
 ### Static methods
 * will belong to the *class*, not the objects (it's independent);
 * can be accessed directly without needing an object (`Class.method`);
+* takes input arguments and returns a result based only on those input values and nothing else;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODEzNzQ3MiwtMjE0MzY3NzM3MiwtMj
+eyJoaXN0b3J5IjpbLTUzODc1OTcwNSwtMjE0MzY3NzM3MiwtMj
 kzNjAwMDk2LC0xOTM5MjcyMzI5LDE4MTMwNjIzNjIsMTgzNjcw
 NzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAzMiwxOTk0MzQ1MjAzLD
 EwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Njg2NzIyNzddfQ==
