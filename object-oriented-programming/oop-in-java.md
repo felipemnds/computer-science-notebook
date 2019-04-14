@@ -275,16 +275,20 @@ Creating good aplications includes:
 ## 4) Interface (multiple inheritance problem)
 > [Video that shows how Interface works.](https://youtu.be/_2Kd4RUlWUg)
 
-Creating an `interface` is very similar to creating a `class`.
+Creating an `interface` is very similar to creating a `class`. But inside an `Interface` will can't implement stuff, just mention it:
 ```
+// movable.java
 public interface Movable{
 	void move(int distance);
 	boolean canMove();
 }
+public interface Habitable{
+	boolean canFit (int inhabitants);
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzI0Njc2OSwtMTkzOTI3MjMyOSwxOD
+eyJoaXN0b3J5IjpbMTkzMjc4NzkwMiwtMTkzOTI3MjMyOSwxOD
 EzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgw
 MzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtND
 Y4NjcyMjc3XX0=
