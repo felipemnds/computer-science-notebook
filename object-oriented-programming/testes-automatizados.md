@@ -29,7 +29,7 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@After` | Executado depois de cada teste. Usado para limpar o ambiente após o teste. |
 | `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
 | `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
-| 111 | 222 |
+| `@Ignore` or `@Ignore("Motivo de estar desabilitado")`| Marca que o teste em questão está desabilitado |
 | 111 | 222 |
 
 ## 3) Facilite sua vida com o import estático
@@ -48,6 +48,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM2NzM1NzgsMTYwMDQyMDQ2MywxND
+eyJoaXN0b3J5IjpbLTIxMDI0OTEwNjMsMTYwMDQyMDQ2MywxND
 QyMjk5NTcwLDQ5MjAxMjg0MF19
 -->
