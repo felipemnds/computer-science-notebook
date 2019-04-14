@@ -36,10 +36,10 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 Parâmetros em [] são opcionais e do tipo String.
 | Declaração | Descrição |
 |--|--|
-| assertTrue([message,] boolean condition) | Importar o necessário para usarmos os termos abaixo |
-| `@Test` | Identifica um método como um método de teste |
-| `@Before` | Usado para preparar o ambiente de teste. Executado antes de cada teste. |
-| `@After` | Executado depois de cada teste. Usado para limpar o ambiente após o teste. |
+| assertTrue([message,] boolean condition) | Checa se a condição é true |
+| assertFalse([message,] boolean condition) | Checa se a condição é false |
+| assertEquals([message,] expected, actual) | Compara se dois valores são iguais. As referências são comparadas, e não os conteúdos. |
+| assertEquals([message,] expected, actual, tolerance) | Igual o anterior, porém com um delta* |
 | `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
 | `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
 | `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
@@ -61,6 +61,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTI3MjcxMywxNjAwNDIwNDYzLDE0ND
-IyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbLTQ3MjIxNDgzLDE2MDA0MjA0NjMsMTQ0Mj
+I5OTU3MCw0OTIwMTI4NDBdfQ==
 -->
