@@ -265,13 +265,13 @@ Creating good aplications includes:
 ## 2) Polymorphism
 1. Create "Person" class with `name` and `email`;
 2. Create "Student" and "Teacher" that `extends Person`;
-## 3) Override methods
 3. You can declare them in multiple ways:
 	- `Student student = new Student();`
 	- `Person student = new Student();`
-	- `Student`will have all the `Person` methods, but child can **override** methods if needed, just by rewriting it.
+## 3) Override methods
+`Student`will have all the `Person` methods, but child can **override** methods if needed, just by rewriting it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjY5ODQ5MywzODQ2NDgwMzIsMTk5ND
-M0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtNDY4NjcyMjc3
-XX0=
+eyJoaXN0b3J5IjpbMjE0MzA0NjA4OCwxNjA2Njk4NDkzLDM4ND
+Y0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYx
+LC00Njg2NzIyNzddfQ==
 -->
