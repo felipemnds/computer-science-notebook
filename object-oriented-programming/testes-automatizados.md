@@ -2,7 +2,7 @@
 >  ***Lista de Referências:***
 > 1. http://www.caelum.com.br/apostila-java-testes-xml-design-patterns/testes-automatizados/#3-4-testes-de-unidade
 > 2. https://www.youtube.com/watch?v=Q2zBRTgKXHo
-
+> 3. https://www.vogella.com/tutorials/JUnit/article.html
 # Parte 1. Teste de Unidade
 **Testes de unidade** são testes que testam apenas uma classe ou método, verificando se seu comportamento está de acordo com o desejado.
 > Mas lembre-se sempre: testes de unidade testam **apenas** unidades (métodos isolados)!
@@ -44,8 +44,25 @@ Parâmetros em [] são opcionais e do tipo String.
 | assertNotNull([message,] object) | Checa se o objeto não é *null* |
 | assertSame([message,] expected, actual) | Checa se ambas as variáveis referem ao mesmo objeto. |
 | assertNotSame([message,] expected, actual) | Checa se ambas as variáveis referem à diferentes objetos. |
+## 4) JUnit test suites
+Se temos várias classes de teste, podemos combina-las em uma única *test suite*:
+```
+package com.vogella.junit.first;
 
-## 4) Facilite sua vida com o import estático
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({
+        MyClassTest.class,
+        MySecondClassTest.class })
+
+public class AllTests {
+
+}
+```
+## 5) Facilite sua vida com o import estático
 Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
  import static org.junit.Assert.*;
@@ -61,6 +78,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjExMzI0MSwxNjAwNDIwNDYzLDE0ND
-IyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbMTQyMjk4Nzg5LDE2MDA0MjA0NjMsMTQ0Mj
+I5OTU3MCw0OTIwMTI4NDBdfQ==
 -->
