@@ -317,10 +317,11 @@ You cant use the keyword `final`with **fields** as well. This way, nothing will 
 * can still access static fields (because they also belong to the class);
 ## 7) Protected 
 Any member that has the keyword `protected` can only be accessed by it's subclass (child).
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTg1MTIyOCwxNDE5MTQxNjYsLTM0NT
-c3NDgwLC01Mzg3NTk3MDUsLTIxNDM2NzczNzIsLTI5MzYwMDA5
-NiwtMTkzOTI3MjMyOSwxODEzMDYyMzYyLDE4MzY3MDc1OTEsMT
-YwNjY5ODQ5MywzODQ2NDgwMzIsMTk5NDM0NTIwMywxMDk0NjY2
-MjQwLDkwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbMjY3OTQxODM0LDE5MTE4NTEyMjgsMTQxOT
+E0MTY2LC0zNDU3NzQ4MCwtNTM4NzU5NzA1LC0yMTQzNjc3Mzcy
+LC0yOTM2MDAwOTYsLTE5MzkyNzIzMjksMTgxMzA2MjM2MiwxOD
+M2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4MDMyLDE5OTQzNDUy
+MDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
 -->
