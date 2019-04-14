@@ -309,10 +309,12 @@ You cant use the keyword `final`with **fields** as well. This way, nothing will 
 * can be accessed directly without needing an object (`Class.method`);
 * takes input arguments and returns a result based only on those input values and nothing else;
 * can still access static fields (because they also belong to the class);
+## 7) Protected 
+Any member that has the keyword `protected` can only be accessed by it's subclass (child).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTc3NDgwLC01Mzg3NTk3MDUsLTIxND
-M2NzczNzIsLTI5MzYwMDA5NiwtMTkzOTI3MjMyOSwxODEzMDYy
-MzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgwMzIsMT
-k5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtNDY4Njcy
-Mjc3XX0=
+eyJoaXN0b3J5IjpbMTQxOTE0MTY2LC0zNDU3NzQ4MCwtNTM4Nz
+U5NzA1LC0yMTQzNjc3MzcyLC0yOTM2MDAwOTYsLTE5MzkyNzIz
+MjksMTgxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0OTMsMz
+g0NjQ4MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MDk1MjE0
+NjEsLTQ2ODY3MjI3N119
 -->
