@@ -79,7 +79,13 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
   }
 }
 ```
+## 6) Como utilizar o JUnit em seu projeto (Eclipse)
+1. Adicionar JUnit ao projeto
+	> Build Path >> Adicionar biblioteca >> JUnit
+2. Criar classe de teste
+	> Selecionar classe a testar 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDA2MDI5OCwxNDIyOTg3ODksMTYwMD
-QyMDQ2MywxNDQyMjk5NTcwLDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbNzA4OTg3ODY1LDE2ODAwNjAyOTgsMTQyMj
+k4Nzg5LDE2MDA0MjA0NjMsMTQ0MjI5OTU3MCw0OTIwMTI4NDBd
+fQ==
 -->
