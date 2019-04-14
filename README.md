@@ -6,6 +6,7 @@ Here you can find some of my summaries/nots made during my Computer Science Grad
 2. Organização e Arquitetura de Computadores
 	- [Introdução OAC](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/introducao-oac.md)
 	- [Assembly MIPS](https://github.com/felipemnds/computer-science-summaries/blob/master/organizacao-arquitetura-computadores/mips-assembly.md)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzAzMjUzMyw5MzYwMDcxNjRdfQ==
+eyJoaXN0b3J5IjpbMTg1NzAzMjIxNyw5MzYwMDcxNjRdfQ==
 -->
