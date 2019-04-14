@@ -1,3 +1,4 @@
+[< MENU](https://github.com/felipemnds/computer-science-notebook/blob/master/README.md)
 >  ***Links Úteis:***
 > 1. [MIPS  quick tutorial](http://logos.cs.uic.edu/366/notes/mips%20quick%20tutorial.htm)
 > 2. [MIPS Assembly Language Examples](https://courses.cs.washington.edu/courses/cse378/03wi/lectures/mips-asm-examples.html)
@@ -110,5 +111,5 @@ jal NomeProcedimento # desvia para o procedimento e guarda o endereço inicial $
 jr $ra # já dentro do procedimento, vai diretamente para o endereço de $ra (endereço inicial do "Caller")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY4MjI2NjVdfQ==
+eyJoaXN0b3J5IjpbOTQzMDg4NjA4LC0xMzk2ODIyNjY1XX0=
 -->
