@@ -36,6 +36,7 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@DisplayName("😱")` | Define um nome para o método de teste |
 ## 3) Tabela de Asserts
 Parâmetros em [] são opcionais e do tipo String.
+
 | Declaração | Descrição |
 |--|--|
 | assertTrue([message,] boolean condition) | Checa se a condição é true |
@@ -91,7 +92,7 @@ O **EclEmma** é uma ferramenta de cobertura de código para Java. De forma resu
 ## 2) Utilizando o EclEmma
 Basta executar o código através da opção **Coverage as... > JUnit Test**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NjA3OTAyLC05NjkxNjk4NTksMTY4MD
-A2MDI5OCwxNDIyOTg3ODksMTYwMDQyMDQ2MywxNDQyMjk5NTcw
-LDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbMTYxMTY2NDY4OCw1ODQ2MDc5MDIsLTk2OT
+E2OTg1OSwxNjgwMDYwMjk4LDE0MjI5ODc4OSwxNjAwNDIwNDYz
+LDE0NDIyOTk1NzAsNDkyMDEyODQwXX0=
 -->
