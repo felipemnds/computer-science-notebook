@@ -295,12 +295,12 @@ public class Caravan implements Habitable, Movable{
 ```
 Note: this class **needs** to implement his *interfaces* methods.
 ## 5) Final Methods/Fields
-But if you want to make sure no one will override your method? Simple!
+But if you want to make sure no one will override your **method**? Simple!
 Just remember to include the keyword `final` on your method declaration.
-
+You cant use the keyword `final`with **fields** as well. This way, nothing will change this field's value after it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU0ODQ3OTUsLTI5MzYwMDA5NiwtMT
-kzOTI3MjMyOSwxODEzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5
-ODQ5MywzODQ2NDgwMzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLD
-kwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbLTY3NjYzNTkxOCwtMjkzNjAwMDk2LC0xOT
+M5MjcyMzI5LDE4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4
+NDkzLDM4NDY0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOT
+A5NTIxNDYxLC00Njg2NzIyNzddfQ==
 -->
