@@ -32,6 +32,7 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
 | `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
 | `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
+| `@DisplayName("😱")` | Define um nome para o método de teste |
 ## 3) Tabela de Asserts
 Parâmetros em [] são opcionais e do tipo String.
 | Declaração | Descrição |
@@ -78,6 +79,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjk4Nzg5LDE2MDA0MjA0NjMsMTQ0Mj
-I5OTU3MCw0OTIwMTI4NDBdfQ==
+eyJoaXN0b3J5IjpbMTUxMDQzMjEwLDE0MjI5ODc4OSwxNjAwND
+IwNDYzLDE0NDIyOTk1NzAsNDkyMDEyODQwXX0=
 -->
