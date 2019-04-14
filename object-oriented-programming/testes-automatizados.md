@@ -43,7 +43,7 @@ Parâmetros em [] são opcionais e do tipo String.
 | assertNull([message,] object) | Checa se o objeto é *null* |
 | assertNotNull([message,] object) | Checa se o objeto não é *null* |
 | assertSame([message,] expected, actual) | Checa se ambas as variáveis referem ao mesmo objeto. |
-| assertNotSame([message,] expected, actual) | Checa se ambas as variáveis referem à diferenteobjeto. |
+| assertNotSame([message,] expected, actual) | Checa se ambas as variáveis referem à diferentes objetos. |
 ## 4) Facilite sua vida com o import estático
 Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
@@ -60,6 +60,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTMwODI0MSwxNjAwNDIwNDYzLDE0ND
-IyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbMTc1NzgxNjksMTYwMDQyMDQ2MywxNDQyMj
+k5NTcwLDQ5MjAxMjg0MF19
 -->
