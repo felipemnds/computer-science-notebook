@@ -317,11 +317,13 @@ You cant use the keyword `final`with **fields** as well. This way, nothing will 
 * can still access static fields (because they also belong to the class);
 ## 7) Protected 
 Any member that has the keyword `protected` can only be accessed by it's subclass (child).
-## 
+## 8) Abstract
+When used, a **class** can't be instaciated directly by it's parent, and a **method** must be implemented by it's child.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3OTQxODM0LDE5MTE4NTEyMjgsMTQxOT
-E0MTY2LC0zNDU3NzQ4MCwtNTM4NzU5NzA1LC0yMTQzNjc3Mzcy
-LC0yOTM2MDAwOTYsLTE5MzkyNzIzMjksMTgxMzA2MjM2MiwxOD
-M2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4MDMyLDE5OTQzNDUy
-MDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTkyMDMzNzYzOSwxOTExODUxMjI4LDE0MT
+kxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcwNSwtMjE0MzY3NzM3
+MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LDE4MTMwNjIzNjIsMT
+gzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAzMiwxOTk0MzQ1
+MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Njg2NzIyNzddfQ
+==
 -->
