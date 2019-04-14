@@ -255,7 +255,10 @@ try{
 ```
 > You can have more than one Exception/Catch block.
 # Part 3. There's more to OOP
+Creating good aplications includes:
+1. **Encapsulation** - each class contains everything it needs and nothing more
+2. **Polymorphism
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2OD
-Y3MjI3N119
+eyJoaXN0b3J5IjpbMTcxNjAyODIzNSwxMDk0NjY2MjQwLDkwOT
+UyMTQ2MSwtNDY4NjcyMjc3XX0=
 -->
