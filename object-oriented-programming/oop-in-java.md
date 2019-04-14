@@ -289,12 +289,14 @@ public interface Habitable{
 ```
 With all the Interfaces done, a class can use them with the **implement** keyword:
 ```
+// caravan.java
 public class Caravan implements Habitable, Movable{
 }
 ```
+Note: this class **needs** to implement hi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MjQyNTIwLC0xOTM5MjcyMzI5LDE4MT
+eyJoaXN0b3J5IjpbLTEyMjkxODkwLC0xOTM5MjcyMzI5LDE4MT
 MwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAz
 MiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Nj
 g2NzIyNzddfQ==
