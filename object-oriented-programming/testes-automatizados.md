@@ -20,8 +20,9 @@ public class CandlestickFactoryTest {
 ```
 E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**, com o valor *esperado* e o valor *atual*:
 `Assert.assertEquals(40.5, candle.getAbertura(), 0.00001);`
+#
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDQyMDQ2MywxNDQyMjk5NTcwLDQ5Mj
-AxMjg0MF19
+eyJoaXN0b3J5IjpbLTcyMTQ1NjMzNiwxNjAwNDIwNDYzLDE0ND
+IyOTk1NzAsNDkyMDEyODQwXX0=
 -->
