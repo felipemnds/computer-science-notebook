@@ -275,7 +275,7 @@ Creating good aplications includes:
 ## 4) Interface (multiple inheritance problem)
 > [Video that shows how Interface works.](https://youtu.be/_2Kd4RUlWUg)
 
-Creating an `interface` is very similar to creating a `class`. But inside an `Interface` will can't implement stuff, just mention it:
+Creating an `interface` is very similar to creating a `class`. Interfaces define what a class show **do** but not **how** to do it:
 ```
 // movable.java
 public interface Movable{
@@ -293,11 +293,11 @@ With all the Interfaces done, a class can use them with the **implement** keywor
 public class Caravan implements Habitable, Movable{
 }
 ```
-Note: this class **needs** to implement hi
+Note: this class **needs** to implement his *interfaces* methods.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkxODkwLC0xOTM5MjcyMzI5LDE4MT
-MwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAz
-MiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Nj
-g2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbLTI5MzYwMDA5NiwtMTkzOTI3MjMyOSwxOD
+EzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgw
+MzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtND
+Y4NjcyMjc3XX0=
 -->
