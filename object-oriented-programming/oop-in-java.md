@@ -241,6 +241,7 @@ And for this, you need another library as well:
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
 > [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
+> Video 
 
 Exceptions will be *thrown* by your methods by simpling putting `throws Exception` right after your method's name. **You** have the responsability to catch it, giving the user a good and friendly experience with your program.
 ```
@@ -320,10 +321,10 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODE2OTA2MSwxOTExODUxMjI4LDE0MT
-kxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcwNSwtMjE0MzY3NzM3
-MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LDE4MTMwNjIzNjIsMT
-gzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAzMiwxOTk0MzQ1
-MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Njg2NzIyNzddfQ
-==
+eyJoaXN0b3J5IjpbLTE3Mjc0MTgxMTQsMTUzODE2OTA2MSwxOT
+ExODUxMjI4LDE0MTkxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcw
+NSwtMjE0MzY3NzM3MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LD
+E4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0
+ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC
+00Njg2NzIyNzddfQ==
 -->
