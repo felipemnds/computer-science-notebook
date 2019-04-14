@@ -272,11 +272,11 @@ Creating good aplications includes:
 `Student`will have all methods inside `Person`, but it's child can **override** methods if needed, just by rewriting it.
 1. If it's child just rewrites the method, it will be **overrided**, ignoring the original 
 2. If you want to use the original method's code, include the `super.method()` to use the original method's code or `super()` to use it's constructor
-## 4) Interface (solving multiple parents problem)
+## 4) Interface (multiple inheritance problem)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzA2MjM2MiwxODM2NzA3NTkxLDE2MD
-Y2OTg0OTMsMzg0NjQ4MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0
-MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTE5MzkyNzIzMjksMTgxMzA2MjM2MiwxOD
+M2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4MDMyLDE5OTQzNDUy
+MDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
 -->
