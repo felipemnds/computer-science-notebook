@@ -23,10 +23,10 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 ## 2) Tabela de Referência para JUnit
 | JUnit 4 | Descrição |
 |--|--|
-| 111 | 222 |
-| 111 | 222 |
-| 111 | 222 |
-| 111 | 222 |
+| `import org.junit.*` | Importar o necessário para usarmos os termos abaixo|
+| `@Test` | Identifica um método como um método de teste |
+| `@Before` | Usado para preparar o ambiente de teste. Executado antes de cada teste. |
+| `@After` | Executado depo |
 | 111 | 222 |
 | 111 | 222 |
 | 111 | 222 |
@@ -48,6 +48,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzI4MDg2NSwxNjAwNDIwNDYzLDE0ND
+eyJoaXN0b3J5IjpbMjAwMjMxNzAwMSwxNjAwNDIwNDYzLDE0ND
 IyOTk1NzAsNDkyMDEyODQwXX0=
 -->
