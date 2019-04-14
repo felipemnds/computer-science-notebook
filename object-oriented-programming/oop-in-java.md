@@ -254,7 +254,18 @@ try{
    // Handle all the possible index-out-of-bounds-related issues here
 } 
 ```
-
+We have 2 kinds of Exceptions:
+1. Built In
+	- ArithmeticException
+	- ArrayIndexOutofBoundException
+	- ClassNotFoundException
+	- IOException
+	- InterruptedException
+	- NoSuchFieldException
+	- NoSuchMethodException
+	- NumerFormatException
+	- RuntimeException
+	- StringIndexOutofBoundException
 # Part 3. There's more to OOP
 Creating good aplications includes:
 1. **Encapsulation** - each class contains everything it needs and nothing more
@@ -321,10 +332,10 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTYyNzQ5MywxNTM4MTY5MDYxLDE5MT
-E4NTEyMjgsMTQxOTE0MTY2LC0zNDU3NzQ4MCwtNTM4NzU5NzA1
-LC0yMTQzNjc3MzcyLC0yOTM2MDAwOTYsLTE5MzkyNzIzMjksMT
-gxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4
-MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLT
-Q2ODY3MjI3N119
+eyJoaXN0b3J5IjpbNDk2ODg3NTQzLDExNzU2Mjc0OTMsMTUzOD
+E2OTA2MSwxOTExODUxMjI4LDE0MTkxNDE2NiwtMzQ1Nzc0ODAs
+LTUzODc1OTcwNSwtMjE0MzY3NzM3MiwtMjkzNjAwMDk2LC0xOT
+M5MjcyMzI5LDE4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4
+NDkzLDM4NDY0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOT
+A5NTIxNDYxLC00Njg2NzIyNzddfQ==
 -->
