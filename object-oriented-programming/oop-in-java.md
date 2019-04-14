@@ -299,10 +299,10 @@ But if you want to make sure no one will override your **method**? Simple!
 Just remember to include the keyword `final` on your method declaration.
 You cant use the keyword `final`with **fields** as well. This way, nothing will change this field's value after it's declared.
 ## 6) Static
-
+* **Static fields** - will belong to the *class*, not the objects. So it's independent, and will be shared throught all the class's objects;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NzgzNTA3LC0yOTM2MDAwOTYsLTE5Mz
-kyNzIzMjksMTgxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0
-OTMsMzg0NjQ4MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MD
-k1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTExODE1NDg4ODgsLTI5MzYwMDA5NiwtMT
+kzOTI3MjMyOSwxODEzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5
+ODQ5MywzODQ2NDgwMzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLD
+kwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
 -->
