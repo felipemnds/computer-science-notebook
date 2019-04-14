@@ -277,12 +277,15 @@ Creating good aplications includes:
 
 Creating an `interface` is very similar to creating a `class`.
 ```
-
+public interface Movable{
+	void move(int distance);
+	boolean canMove();
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAwMjQ0NTcsLTE5MzkyNzIzMjksMT
-gxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4
-MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLT
-Q2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTc5MzI0Njc2OSwtMTkzOTI3MjMyOSwxOD
+EzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgw
+MzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtND
+Y4NjcyMjc3XX0=
 -->
