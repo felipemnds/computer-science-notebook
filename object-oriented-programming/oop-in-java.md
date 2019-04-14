@@ -268,7 +268,9 @@ Creating good aplications includes:
 3. You can declare them in multiple ways:
 	- `Student student = new Student();`
 	- `Person student = new Student();`
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NjQ4MDMyLDE5OTQzNDUyMDMsMTA5ND
-Y2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbMTQwMzIyMTE1LDM4NDY0ODAzMiwxOTk0Mz
+Q1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Njg2NzIyNzdd
+fQ==
 -->
