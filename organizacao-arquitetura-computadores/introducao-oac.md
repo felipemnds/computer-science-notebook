@@ -1,3 +1,4 @@
+[< MENU](https://github.com/felipemnds/computer-science-notebook/blob/master/README.md)
 >  ***Lista de Referências:***
 > 1. https://www.youtube.com/watch?v=jFDMZpkUWCw
 
@@ -71,5 +72,6 @@ Recebe os conteúdo que serão usados dentro da ULA
 > MAR -> MEMÓRIA PRINCIPAL
 > MBR <-> MEMÓRIA PRINCIPAL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDE2MTQ0NCwxMTg3MTc0NjIzXX0=
+eyJoaXN0b3J5IjpbLTc4Njg5MzMwNywtNTI0MTYxNDQ0LDExOD
+cxNzQ2MjNdfQ==
 -->
