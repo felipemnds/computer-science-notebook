@@ -20,9 +20,13 @@ public class CandlestickFactoryTest {
 ```
 E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**, com o valor *esperado* e o valor *atual*:
 `Assert.assertEquals(40.5, candle.getAbertura(), 0.00001);`
-#
-
+## 2) Facilite sua vida com o import estático
+Ao importar a biblioteca do JUnit, faça da seguinte maneira:
+```
+ import static org.junit.Assert.*;
+ ```
+ Assim, os métodos podem ser utilizados sem que seja necessário citar a classe antes de cada declara
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTQ1NjMzNiwxNjAwNDIwNDYzLDE0ND
-IyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbMTU0OTE2OTQ4LDE2MDA0MjA0NjMsMTQ0Mj
+I5OTU3MCw0OTIwMTI4NDBdfQ==
 -->
