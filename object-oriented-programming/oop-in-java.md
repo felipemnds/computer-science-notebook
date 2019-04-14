@@ -241,7 +241,7 @@ And for this, you need another library as well:
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
 > [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
-> Video 
+> [Video that explains Exception Handling in a more complete way.](https://www.youtube.com/watch?v=W-N2ltgU-X4)
 
 Exceptions will be *thrown* by your methods by simpling putting `throws Exception` right after your method's name. **You** have the responsability to catch it, giving the user a good and friendly experience with your program.
 ```
@@ -254,7 +254,6 @@ try{
    // Handle all the possible index-out-of-bounds-related issues here
 } 
 ```
-> You can have more than one Exception/Catch block.
 # Part 3. There's more to OOP
 Creating good aplications includes:
 1. **Encapsulation** - each class contains everything it needs and nothing more
@@ -321,7 +320,7 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc0MTgxMTQsMTUzODE2OTA2MSwxOT
+eyJoaXN0b3J5IjpbLTExMDc3NjMyMDksMTUzODE2OTA2MSwxOT
 ExODUxMjI4LDE0MTkxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcw
 NSwtMjE0MzY3NzM3MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LD
 E4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0
