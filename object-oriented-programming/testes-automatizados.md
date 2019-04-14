@@ -26,9 +26,9 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `import org.junit.*` | Importar o necessário para usarmos os termos abaixo|
 | `@Test` | Identifica um método como um método de teste |
 | `@Before` | Usado para preparar o ambiente de teste. Executado antes de cada teste. |
-| `@After` | Executado depo |
-| 111 | 222 |
-| 111 | 222 |
+| `@After` | Executado depois de cada teste. Usado para limpar o ambiente após o teste. |
+| `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
+| `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
 | 111 | 222 |
 | 111 | 222 |
 
@@ -48,6 +48,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjMxNzAwMSwxNjAwNDIwNDYzLDE0ND
-IyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbLTIxMDM2NzM1NzgsMTYwMDQyMDQ2MywxND
+QyMjk5NTcwLDQ5MjAxMjg0MF19
 -->
