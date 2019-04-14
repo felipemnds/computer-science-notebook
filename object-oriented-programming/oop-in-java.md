@@ -240,7 +240,7 @@ And for this, you need another library as well:
 ## 3) Exceptions
 **Exceptions** are potential problemas like *invalid inputs* or *files that doesn't exist*.
 
-[Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
+> [Video that explains the dynamics of throwing, try & catch.](https://youtu.be/qTOk2-jf260)
 
 Exceptions will be *thrown* by your methods by simpling putting `throws Exception` right after your method's name. **You** have the responsability to catch it, giving the user a good and friendly experience with your program.
 ```
@@ -273,10 +273,16 @@ Creating good aplications includes:
 1. If it's child just rewrites the method, it will be **overrided**, ignoring the original 
 2. If you want to use the original method's code, include the `super.method()` to use the original method's code or `super()` to use it's constructor
 ## 4) Interface (multiple inheritance problem)
+> [Video that shows how Interface works.](https://youtu.be/_2Kd4RUlWUg)
 
+Creating an `interface` is very similar to creating a `class`.
+```
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkyNzIzMjksMTgxMzA2MjM2MiwxOD
-M2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4MDMyLDE5OTQzNDUy
-MDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTE4MTAwMjQ0NTcsLTE5MzkyNzIzMjksMT
+gxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4
+MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLT
+Q2ODY3MjI3N119
 -->
