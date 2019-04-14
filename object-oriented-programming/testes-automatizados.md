@@ -1,5 +1,4 @@
 [< MENU](https://github.com/felipemnds/computer-science-notebook/blob/master/README.md)
-
 >  ***Lista de Referências:***
 > 1. http://www.caelum.com.br/apostila-java-testes-xml-design-patterns/testes-automatizados/#3-4-testes-de-unidade
 > 2. https://www.youtube.com/watch?v=Q2zBRTgKXHo
@@ -94,7 +93,7 @@ O **EclEmma** é uma ferramenta de cobertura de código para Java. De forma resu
 Basta executar o código através da opção **Coverage as... > JUnit Test**.
 Feito isso, confira as cores e as porcentagens mostradas, e resolva cada trecho não coberto com mais testes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMwMTg2OTIsNTg0NjA3OTAyLC05Nj
-kxNjk4NTksMTY4MDA2MDI5OCwxNDIyOTg3ODksMTYwMDQyMDQ2
-MywxNDQyMjk5NTcwLDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbMTk2MTA3MjIwNiw1ODQ2MDc5MDIsLTk2OT
+E2OTg1OSwxNjgwMDYwMjk4LDE0MjI5ODc4OSwxNjAwNDIwNDYz
+LDE0NDIyOTk1NzAsNDkyMDEyODQwXX0=
 -->
