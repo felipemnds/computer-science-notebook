@@ -269,9 +269,11 @@ Creating good aplications includes:
 	- `Student student = new Student();`
 	- `Person student = new Student();`
 ## 3) Override methods
-`Student`will have all the `Person` methods, but child can **override** methods if needed, just by rewriting it.
+`Student`will have all methods inside `Person`, but it's child can **override** methods if needed, just by rewriting it.
+1. If it's child just rewrites the method, it will be **overrided**, ignoring the original 
+2. If you want to use the original method's code, include the `super`keyword 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzA0NjA4OCwxNjA2Njk4NDkzLDM4ND
-Y0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYx
-LC00Njg2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbLTEwMTIxMzAwMjQsMTYwNjY5ODQ5MywzOD
+Q2NDgwMzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2
+MSwtNDY4NjcyMjc3XX0=
 -->
