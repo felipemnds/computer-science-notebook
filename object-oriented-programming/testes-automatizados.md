@@ -25,8 +25,17 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
  import static org.junit.Assert.*;
  ```
- Assim, os métodos podem ser utilizados sem que seja necessário citar a classe antes de cada declara
+ Assim, os métodos podem ser utilizados sem que seja necessário citar a classe antes de cada declaração:
+ ```
+ class TesteMatematico {
+
+  @Test
+  void doisMaisDois() {
+    assertEquals(4, 2 + 2);
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTE2OTQ4LDE2MDA0MjA0NjMsMTQ0Mj
+eyJoaXN0b3J5IjpbNjc1Nzk1MzE3LDE2MDA0MjA0NjMsMTQ0Mj
 I5OTU3MCw0OTIwMTI4NDBdfQ==
 -->
