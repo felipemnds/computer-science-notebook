@@ -300,14 +300,14 @@ Just remember to include the keyword `final` on your method declaration.
 You cant use the keyword `final`with **fields** as well. This way, nothing will change this field's value after it's declared.
 ## 6) Static
 ### Static fields
-* will belong to the *class*, not the objects
-* it's independent
-* will be shared throught all the class's objects
-* it can be changed normally
-* can be accessed directly, like `Class.field
+* will belong to the *class*, not the objects;
+* it's independent;
+* will be shared throught all the class's objects;
+* it can be changed normally;
+* can be accessed directly without needing an object (`Class.field`);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTM5NjU4MywtMjkzNjAwMDk2LC0xOT
-M5MjcyMzI5LDE4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4
-NDkzLDM4NDY0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOT
-A5NTIxNDYxLC00Njg2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbLTIxNDM2NzczNzIsLTI5MzYwMDA5NiwtMT
+kzOTI3MjMyOSwxODEzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5
+ODQ5MywzODQ2NDgwMzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLD
+kwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
 -->
