@@ -91,8 +91,9 @@ O **EclEmma** é uma ferramenta de cobertura de código para Java. De forma resu
 > Help > Install New Software > Work With "http://update.eclemma.org/" > Add > Next
 ## 2) Utilizando o EclEmma
 Basta executar o código através da opção **Coverage as... > JUnit Test**.
+Feito isso, confira as cores e as porcentagens mostradas, e resolva cada trecho não coberto com mais testes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTY2NDY4OCw1ODQ2MDc5MDIsLTk2OT
+eyJoaXN0b3J5IjpbMTM2NDY2NDkwMSw1ODQ2MDc5MDIsLTk2OT
 E2OTg1OSwxNjgwMDYwMjk4LDE0MjI5ODc4OSwxNjAwNDIwNDYz
 LDE0NDIyOTk1NzAsNDkyMDEyODQwXX0=
 -->
