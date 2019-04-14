@@ -9,8 +9,18 @@
 # Parte 2. JUnit
 O **JUnit** (junit.org) é um framework muito simples para facilitar a criação destes testes de unidade e em especial sua execução.
 ## 1) Convenções e Anotação
-Ao invés de usarmos uma `main`, criamos um método com nome expressivo (normalmente com `test` como prefixo), além de inserir a notação `@Test` antes 
+Ao invés de usarmos uma `main`, criamos um método com nome expressivo (normalmente com `test` como prefixo), além de inserir a notação `@Test` antes da declaração do método.
+```
+public class CandlestickFactoryTest {
+
+ @Test  public void sequenciaSimplesDeNegocios() {
+    // ...
+  }
+}
+```
+E ainda den
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjIyMzUwMiwxNDQyMjk5NTcwLDQ5Mj
+eyJoaXN0b3J5IjpbMTA5OTE3Mzg1MSwxNDQyMjk5NTcwLDQ5Mj
 AxMjg0MF19
 -->
