@@ -39,8 +39,8 @@ Parâmetros em [] são opcionais e do tipo String.
 | assertTrue([message,] boolean condition) | Checa se a condição é true |
 | assertFalse([message,] boolean condition) | Checa se a condição é false |
 | assertEquals([message,] expected, actual) | Compara se dois valores são iguais. As referências são comparadas, e não os conteúdos. |
-| assertEquals([message,] expected, actual, tolerance) | Igual o anterior, porém com um delta* |
-| `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
+| assertEquals([message,] expected, actual, tolerance) | Igual o anterior, porém com um *delta* simbolizando um erro/tolerância. |
+| assertNull([message,] object) | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
 | `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
 | `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
 | `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
@@ -61,6 +61,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjIxNDgzLDE2MDA0MjA0NjMsMTQ0Mj
-I5OTU3MCw0OTIwMTI4NDBdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM0NjQ1OTcsMTYwMDQyMDQ2MywxND
+QyMjk5NTcwLDQ5MjAxMjg0MF19
 -->
