@@ -259,7 +259,8 @@ Creating good aplications includes:
 1. **Encapsulation** - each class contains everything it needs and nothing more
 2. **Polymorphism** - multiples shapes of forms
 3. **Inheritance** - passing down traits from a parent to their child
+## 1) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOT
-UyMTQ2MSwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbMzkxODk1NzY5LDE5OTQzNDUyMDMsMTA5ND
+Y2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
 -->
