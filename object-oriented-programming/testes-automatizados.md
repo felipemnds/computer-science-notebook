@@ -9,8 +9,8 @@
 # Parte 2. JUnit
 O **JUnit** (junit.org) é um framework muito simples para facilitar a criação destes testes de unidade e em especial sua execução.
 ## 1) Convenções e Anotação
-Para cada classe, teremos uma classe correspondente (por convenção, com o sufixo `Test`) que contará todos os testes relativos aos métodos dessa classe. Essa classe ficará no pacote de mesmo nome, mas na _Source Folder_ de testes (`src/test/java`).
+Ao invés de usarmos uma `main`, criamos um método com nome expressivo (normalmente com `test` como prefixo), além de inserir a notação `@Test` antes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTY2NTY3MiwxNDQyMjk5NTcwLDQ5Mj
+eyJoaXN0b3J5IjpbLTk2MjIyMzUwMiwxNDQyMjk5NTcwLDQ5Mj
 AxMjg0MF19
 -->
