@@ -84,8 +84,11 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 	> Build Path >> Adicionar biblioteca >> JUnit
 2. Criar classe de teste
 	> Selecionar classe a testar >> File New >> JUnit >> Selecionar métodos a testar
+# Parte 3. EclEmma
+O **EclEmma** é uma ferramenta de cobertura de código para Java. De forma resumida, ele te mostra qual a porcentagem do seu código seus testes estão cobrindo.
+## 1) Instalando o EclEmma no Eclipse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTE2OTg1OSwxNjgwMDYwMjk4LDE0Mj
-I5ODc4OSwxNjAwNDIwNDYzLDE0NDIyOTk1NzAsNDkyMDEyODQw
-XX0=
+eyJoaXN0b3J5IjpbODgxOTUzNzMwLC05NjkxNjk4NTksMTY4MD
+A2MDI5OCwxNDIyOTg3ODksMTYwMDQyMDQ2MywxNDQyMjk5NTcw
+LDQ5MjAxMjg0MF19
 -->
