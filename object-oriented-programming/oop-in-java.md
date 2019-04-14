@@ -294,10 +294,11 @@ public class Caravan implements Habitable, Movable{
 }
 ```
 Note: this class **needs** to implement his *interfaces* methods.
+## 5) Final Method
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzYwMDA5NiwtMTkzOTI3MjMyOSwxOD
-EzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgw
-MzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtND
-Y4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbMTAyMDY5NDAzOSwtMjkzNjAwMDk2LC0xOT
+M5MjcyMzI5LDE4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4
+NDkzLDM4NDY0ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOT
+A5NTIxNDYxLC00Njg2NzIyNzddfQ==
 -->
