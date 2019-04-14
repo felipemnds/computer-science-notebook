@@ -30,6 +30,7 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
 | `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
 | `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
+| `@Disable("Motivo")` | Marca classes ou métodos como 'desabilitados' |
 | `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
 | `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
 | `@DisplayName("😱")` | Define um nome para o método de teste |
@@ -79,6 +80,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDQzMjEwLDE0MjI5ODc4OSwxNjAwND
-IwNDYzLDE0NDIyOTk1NzAsNDkyMDEyODQwXX0=
+eyJoaXN0b3J5IjpbMTY4MDA2MDI5OCwxNDIyOTg3ODksMTYwMD
+QyMDQ2MywxNDQyMjk5NTcwLDQ5MjAxMjg0MF19
 -->
