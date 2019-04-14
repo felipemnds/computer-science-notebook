@@ -32,8 +32,20 @@ E ainda dentro deste método de testes, cada tentativa é chamada de **Assert**,
 | `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
 | `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
 | `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
-## 3) Tabela de Assert
-## 3) Facilite sua vida com o import estático
+## 3) Tabela de Asserts
+Parâmetros em [] são opcionais e do tipo String.
+| Declaração | Descrição |
+|--|--|
+| assertTrue([message,] boolean condition) | Importar o necessário para usarmos os termos abaixo |
+| `@Test` | Identifica um método como um método de teste |
+| `@Before` | Usado para preparar o ambiente de teste. Executado antes de cada teste. |
+| `@After` | Executado depois de cada teste. Usado para limpar o ambiente após o teste. |
+| `@BeforeClass` | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
+| `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
+| `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
+| `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
+| `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
+## 4) Facilite sua vida com o import estático
 Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
  import static org.junit.Assert.*;
@@ -49,6 +61,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDU5MzE5NCwxNjAwNDIwNDYzLDE0ND
+eyJoaXN0b3J5IjpbMTI3NTI3MjcxMywxNjAwNDIwNDYzLDE0ND
 IyOTk1NzAsNDkyMDEyODQwXX0=
 -->
