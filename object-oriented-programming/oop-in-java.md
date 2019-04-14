@@ -256,7 +256,8 @@ try{
 ```
 Keywords that are importants for Exception Handling:
 1. **try** - block that will throw the exception
-2. **catch** - block that will handle the th
+2. **catch** - block that will handle the thrown exception
+3. **finally** - block that will always be executed
 List of *Built In* exceptions:
 - ArithmeticException
 - ArrayIndexOutofBoundException
@@ -334,7 +335,7 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODIzNDExNiwxMTc1NjI3NDkzLDE1Mz
+eyJoaXN0b3J5IjpbMTMxOTk4MzU4MSwxMTc1NjI3NDkzLDE1Mz
 gxNjkwNjEsMTkxMTg1MTIyOCwxNDE5MTQxNjYsLTM0NTc3NDgw
 LC01Mzg3NTk3MDUsLTIxNDM2NzczNzIsLTI5MzYwMDA5NiwtMT
 kzOTI3MjMyOSwxODEzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5
