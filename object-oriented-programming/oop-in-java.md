@@ -260,11 +260,13 @@ Creating good aplications includes:
 2. **Polymorphism** - multiples shapes of forms
 3. **Inheritance** - passing down traits from a parent to their child
 ## 1) Inheritance 
-1. Create a "A" class that contains common fields and methods. This one's called "parent".
+1. Create a "A" class that contains common fields and methods. This one's called "parent";
 2. Create other classes "B", "C", "D" (as much as you want) with the expression `extends A`. Those classes are called "chid".
 ## 2) Polymorphism
-
+1. Create "Person" class with `name` and `email`;
+2. Create "Student" and "Teacher" that `extends Person`;
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTAwMjk5LDE5OTQzNDUyMDMsMTA5ND
-Y2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
+eyJoaXN0b3J5IjpbLTIxMzQ3ODkzMjAsMTk5NDM0NTIwMywxMD
+k0NjY2MjQwLDkwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
 -->
