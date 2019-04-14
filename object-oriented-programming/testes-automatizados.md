@@ -40,11 +40,10 @@ Parâmetros em [] são opcionais e do tipo String.
 | assertFalse([message,] boolean condition) | Checa se a condição é false |
 | assertEquals([message,] expected, actual) | Compara se dois valores são iguais. As referências são comparadas, e não os conteúdos. |
 | assertEquals([message,] expected, actual, tolerance) | Igual o anterior, porém com um *delta* simbolizando um erro/tolerância. |
-| assertNull([message,] object) | Executado uma vez antes de todos os testes. Precisam ser definidos como `static` |
-| `@AfterClass` | Executado uma vez depois de todos os testes. Precisam ser definidos como `static` |
-| `@Ignore` ou `@Ignore("Motivo")`| Marca que o teste em questão está desabilitado |
-| `@Test (expected = Exception.clas)` | Falha se o método não jogar a exceção citada |
-| `@Test (timeout=100)` | Falha se o método demorar mais do que 100 milisegundos |
+| assertNull([message,] object) | Checa se o objeto é *null* |
+| assertNotNull([message,] object) | Checa se o objeto não é *null* |
+| assertSame([message,] expected, actual) | Checa se ambas as variáveis referem ao mesmo objeto. |
+| assertNotSame([message,] expected, actual) | Checa se ambas as variáveis referem à diferenteobjeto. |
 ## 4) Facilite sua vida com o import estático
 Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 ```
@@ -61,6 +60,6 @@ Ao importar a biblioteca do JUnit, faça da seguinte maneira:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM0NjQ1OTcsMTYwMDQyMDQ2MywxND
-QyMjk5NTcwLDQ5MjAxMjg0MF19
+eyJoaXN0b3J5IjpbMTMxOTMwODI0MSwxNjAwNDIwNDYzLDE0ND
+IyOTk1NzAsNDkyMDEyODQwXX0=
 -->
