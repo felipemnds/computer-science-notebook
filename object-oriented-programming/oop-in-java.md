@@ -254,6 +254,8 @@ try{
 } 
 ```
 > You can have more than one Exception/Catch block.
+# Part 3. There's more to OOP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NTIxNDYxLC00Njg2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbMTA5NDY2NjI0MCw5MDk1MjE0NjEsLTQ2OD
+Y3MjI3N119
 -->
