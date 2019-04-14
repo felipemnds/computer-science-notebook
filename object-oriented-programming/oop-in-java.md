@@ -282,14 +282,20 @@ public interface Movable{
 	void move(int distance);
 	boolean canMove();
 }
+// habitable.java
 public interface Habitable{
 	boolean canFit (int inhabitants);
 }
 ```
+With all the Interfaces done, a class can use them with the **implement** keyword:
+```
+public class Caravan implements Habitable, Movable{
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjc4NzkwMiwtMTkzOTI3MjMyOSwxOD
-EzMDYyMzYyLDE4MzY3MDc1OTEsMTYwNjY5ODQ5MywzODQ2NDgw
-MzIsMTk5NDM0NTIwMywxMDk0NjY2MjQwLDkwOTUyMTQ2MSwtND
-Y4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbODc4MjQyNTIwLC0xOTM5MjcyMzI5LDE4MT
+MwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAz
+MiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC00Nj
+g2NzIyNzddfQ==
 -->
