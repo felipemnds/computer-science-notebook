@@ -5,6 +5,8 @@
 # Parte 1. Teste de Unidade
 **Testes de unidade** são testes que testam apenas uma classe ou método, verificando se seu comportamento está de acordo com o desejado.
 > Mas lembre-se sempre: testes de unidade testam **apenas** unidades (métodos isolados)!
+# Parte 2. JUnit
+O **JUnit** (junit.org) é um framework muito simples para facilitar a criação destes testes de unidade e em especial sua execução.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEzNzQ4MjFdfQ==
+eyJoaXN0b3J5IjpbNDkyMDEyODQwXX0=
 -->
