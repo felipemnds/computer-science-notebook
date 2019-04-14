@@ -265,8 +265,10 @@ Creating good aplications includes:
 ## 2) Polymorphism
 1. Create "Person" class with `name` and `email`;
 2. Create "Student" and "Teacher" that `extends Person`;
-3. 
+3. You can declare them in multiple ways:
+	- `Student student = new Student();`
+	- `Person student = new Student();`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ3ODkzMjAsMTk5NDM0NTIwMywxMD
-k0NjY2MjQwLDkwOTUyMTQ2MSwtNDY4NjcyMjc3XX0=
+eyJoaXN0b3J5IjpbMzg0NjQ4MDMyLDE5OTQzNDUyMDMsMTA5ND
+Y2NjI0MCw5MDk1MjE0NjEsLTQ2ODY3MjI3N119
 -->
