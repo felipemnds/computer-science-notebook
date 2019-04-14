@@ -318,9 +318,9 @@ You cant use the keyword `final`with **fields** as well. This way, nothing will 
 ## 7) Protected 
 Any member that has the keyword `protected` can only be accessed by it's subclass (child).
 ## 8) Abstract
-When used, a **class** can't be instaciated directly by it's parent, and a **method** must be implemented by it's child.
+When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDMzNzYzOSwxOTExODUxMjI4LDE0MT
+eyJoaXN0b3J5IjpbMTUzODE2OTA2MSwxOTExODUxMjI4LDE0MT
 kxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcwNSwtMjE0MzY3NzM3
 MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LDE4MTMwNjIzNjIsMT
 gzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0ODAzMiwxOTk0MzQ1
