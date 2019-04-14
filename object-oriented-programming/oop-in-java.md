@@ -1,4 +1,4 @@
-[VOLTAR PARA O MENU](https://github.com/felipemnds/computer-science-notebook/blob/master/README.md)
+[< MENU](https://github.com/felipemnds/computer-science-notebook/blob/master/README.md)
 
 >  ***References List:***
 > 1. https://classroom.udacity.com/courses/ud283
@@ -339,7 +339,7 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzgzNjM5OCwxNzU4ODE5MjIwLDEzMT
+eyJoaXN0b3J5IjpbMTA4ODkzNzI5NSwxNzU4ODE5MjIwLDEzMT
 k5ODM1ODEsMTE3NTYyNzQ5MywxNTM4MTY5MDYxLDE5MTE4NTEy
 MjgsMTQxOTE0MTY2LC0zNDU3NzQ4MCwtNTM4NzU5NzA1LC0yMT
 QzNjc3MzcyLC0yOTM2MDAwOTYsLTE5MzkyNzIzMjksMTgxMzA2
