@@ -254,6 +254,7 @@ try{
    // Handle all the possible index-out-of-bounds-related issues here
 } 
 ```
+
 # Part 3. There's more to OOP
 Creating good aplications includes:
 1. **Encapsulation** - each class contains everything it needs and nothing more
@@ -320,10 +321,10 @@ Any member that has the keyword `protected` can only be accessed by it's subclas
 ## 8) Abstract
 When used, a **class** can't be instaciated directly by it's parent, and obblies a child to implemente it's parent's **method**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc3NjMyMDksMTUzODE2OTA2MSwxOT
-ExODUxMjI4LDE0MTkxNDE2NiwtMzQ1Nzc0ODAsLTUzODc1OTcw
-NSwtMjE0MzY3NzM3MiwtMjkzNjAwMDk2LC0xOTM5MjcyMzI5LD
-E4MTMwNjIzNjIsMTgzNjcwNzU5MSwxNjA2Njk4NDkzLDM4NDY0
-ODAzMiwxOTk0MzQ1MjAzLDEwOTQ2NjYyNDAsOTA5NTIxNDYxLC
-00Njg2NzIyNzddfQ==
+eyJoaXN0b3J5IjpbMTE3NTYyNzQ5MywxNTM4MTY5MDYxLDE5MT
+E4NTEyMjgsMTQxOTE0MTY2LC0zNDU3NzQ4MCwtNTM4NzU5NzA1
+LC0yMTQzNjc3MzcyLC0yOTM2MDAwOTYsLTE5MzkyNzIzMjksMT
+gxMzA2MjM2MiwxODM2NzA3NTkxLDE2MDY2OTg0OTMsMzg0NjQ4
+MDMyLDE5OTQzNDUyMDMsMTA5NDY2NjI0MCw5MDk1MjE0NjEsLT
+Q2ODY3MjI3N119
 -->
