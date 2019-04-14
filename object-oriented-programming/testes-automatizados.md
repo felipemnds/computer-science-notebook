@@ -4,6 +4,7 @@
 
 # Parte 1. Teste de Unidade
 **Testes de unidade** são testes que testam apenas uma classe ou método, verificando se seu comportamento está de acordo com o desejado.
+> Mas lembre-se sempre: testes de unidade testam **apenas** unidades (métodos isolados)!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0ODAyOTUxXX0=
+eyJoaXN0b3J5IjpbLTIxMDEzNzQ4MjFdfQ==
 -->
